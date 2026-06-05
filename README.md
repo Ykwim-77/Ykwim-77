@@ -15,8 +15,8 @@ Estudante de Desenvolvimento de Sistemas, focado em **Back-end**, APIs REST, ban
 ## GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ykwim-77&show_icons=true&theme=github_dark"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ykwim-77&layout=compact&theme=github_dark"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ykwim-77&show_icons=true&theme=github_dark&hide_title=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ykwim-77&layout=compact&theme=github_dark&hide_title=true"/>
 </div>
 
 ---
