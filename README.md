@@ -16,9 +16,9 @@ Estudante de Desenvolvimento de Sistemas com foco em desenvolvimento Back-end, A
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=github_dark"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ykwim-77&show_icons=true&theme=github_dark"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=github_dark"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ykwim-77&layout=compact&theme=github_dark"/>
 
 </div>
 
@@ -28,7 +28,7 @@ Estudante de Desenvolvimento de Sistemas com foco em desenvolvimento Back-end, A
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU_USUARIO&theme=github-dark-blue"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ykwim-77&theme=github-dark-blue"/>
 
 </div>
 
@@ -38,7 +38,7 @@ Estudante de Desenvolvimento de Sistemas com foco em desenvolvimento Back-end, A
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SEU_USUARIO&theme=github-dark"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ykwim-77&theme=github-dark"/>
 
 </div>
 
