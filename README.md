@@ -1,13 +1,5 @@
 # Christian Martinkoski
 
-| ⌨️ **Christian Martinkoski** |
-| :--- |
-| 🚀 **Desenvolvedor Backend** |
-| 🛡️ **Analista de Garantia** |
-| 🎂 **17 anos** |
-
----
-
 Estudante de Desenvolvimento de Sistemas, focado em **Back-end**, APIs REST, bancos de dados e aplicações web.
 
 ---
