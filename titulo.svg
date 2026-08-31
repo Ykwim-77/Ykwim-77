@@ -5,40 +5,18 @@
       font-size: 30px;
       font-weight: 700;
       fill: #24292f;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 3px solid #58a6ff;
-      width: 0;
-      visibility: hidden;
     }
-
     @media (prefers-color-scheme: dark) {
       .text { fill: #f0f6fc; }
     }
-
-    @keyframes type-and-erase {
-      0% { width: 0; visibility: visible; }
-      10% { width: 100%; visibility: visible; } /* Digita */
-      90% { width: 100%; visibility: visible; } /* Pausa lendo */
-      99% { width: 0; visibility: visible; }    /* Apaga */
-      100% { width: 0; visibility: hidden; }
-    }
-
-    @keyframes blink {
-      from, to { border-color: transparent }
-      50% { border-color: #58a6ff }
-    }
-
-    /* Cada animação roda por 4 segundos, totalizando 16 segundos de ciclo */
-    .line1 { animation: type-and-erase 4s steps(22) infinite, blink 0.75s step-end infinite; animation-delay: 0s; }
-    .line2 { animation: type-and-erase 4s steps(25) infinite, blink 0.75s step-end infinite; animation-delay: 4s; }
-    .line3 { animation: type-and-erase 4s steps(25) infinite, blink 0.75s step-end infinite; animation-delay: 8s; }
-    .line4 { animation: type-and-erase 4s steps(10) infinite, blink 0.75s step-end infinite; animation-delay: 12s; }
   </style>
 
-  <!-- Usando tags g separadas para que o GitHub aplique a visibilidade corretamente -->
-  <g><text class="text line1" x="0" y="35">Christian Martinkoski</text></g>
-  <g><text class="text line2" x="0" y="35">Desenvolvedor Backend</text></g>
-  <g><text class="text line3" x="0" y="35">Analista de Garantia</text></g>
-  <g><text class="text line4" x="0" y="35">17 anos</text></g>
+  <text class="text" x="0" y="35">
+    <!-- Animação Nativa: Alterna o texto a cada 4 segundos -->
+    <animate 
+      attributeName="string" 
+      values="Christian Martinkoski;Desenvolvedor Backend;Analista de Garantia;17 anos;Christian Martinkoski" 
+      dur="16s" 
+      repeatCount="indefinite" />
+  </text>
 </svg>
