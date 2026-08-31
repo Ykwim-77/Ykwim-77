@@ -1,4 +1,6 @@
-<img src="https://demolab.com" alt="Typing SVG" />
+# Christian Martinkoski
+
+![Animação](https://demolab.com)
 
 Estudante de Desenvolvimento de Sistemas, focado em **Back-end**, APIs REST, bancos de dados e aplicações web.
 
