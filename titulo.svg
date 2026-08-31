@@ -1,50 +1,22 @@
 <svg xmlns="http://w3.org" viewBox="0 0 600 50" width="100%" height="50">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://w3.org" class="wrapper">
-      <div class="typing-text"></div>
-    </div>
-  </foreignObject>
-
   <style>
-    .wrapper {
-      display: flex;
-      align-items: center;
-      height: 100%;
-    }
-    .typing-text {
+    .text {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       font-size: 28px;
       font-weight: 700;
-      color: #24292f;
-      border-right: 3px solid #58a6ff;
-      white-space: nowrap;
-      overflow: hidden;
-      display: inline-block;
-      letter-spacing: 1px;
-      animation: 
-        change-text 16s infinite,
-        blink 0.75s step-end infinite;
+      fill: #24292f;
     }
-
     @media (prefers-color-scheme: dark) {
-      .typing-text { color: #f0f6fc; }
-    }
-
-    /* O conteúdo do texto é injetado via CSS puro, driblando os filtros do GitHub */
-    @keyframes change-text {
-      0%, 22% { content: "Christian Martinkoski"; width: 310px; }
-      23%, 25% { width: 0; }
-      26%, 48% { content: "Desenvolvedor Backend"; width: 330px; }
-      49%, 51% { width: 0; }
-      52%, 74% { content: "Analista de Garantia"; width: 300px; }
-      75%, 77% { width: 0; }
-      78%, 98% { content: "17 anos"; width: 120px; }
-      99%, 100% { width: 0; }
-    }
-
-    @keyframes blink {
-      from, to { border-color: transparent }
-      50% { border-color: #58a6ff }
+      .text { fill: #f0f6fc; }
     }
   </style>
+
+  <text class="text" x="0" y="35">
+    Christian Martinkoski
+    <animate 
+      attributeName="string" 
+      values="Christian Martinkoski;Desenvolvedor Backend;Analista de Garantia;17 anos;Christian Martinkoski" 
+      dur="12s" 
+      repeatCount="indefinite" />
+  </text>
 </svg>
