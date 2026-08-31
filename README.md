@@ -1,4 +1,4 @@
-# Christian Martinkoski
+<img src="./titulo.svg" alt="Christian Martinkoski" height="50" />
 
 Estudante de Desenvolvimento de Sistemas, focado em **Back-end**, APIs REST, bancos de dados e aplicações web.
 
