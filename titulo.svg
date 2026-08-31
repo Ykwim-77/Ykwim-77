@@ -1,35 +1,27 @@
 <svg xmlns="http://w3.org" viewBox="0 0 600 50" width="100%" height="50">
   <style>
-    .container {
+    .text {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       font-size: 30px;
       font-weight: 700;
       fill: #24292f;
-      position: relative;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      .container { fill: #f0f6fc; }
-    }
-
-    .text {
-      position: absolute;
-      left: 0;
-      top: 0;
       white-space: nowrap;
       overflow: hidden;
       border-right: 3px solid #58a6ff;
       width: 0;
-      opacity: 0;
+      visibility: hidden;
     }
 
-    /* Animação Combinada: Tempo total de 16 segundos (4s para cada frase) */
+    @media (prefers-color-scheme: dark) {
+      .text { fill: #f0f6fc; }
+    }
+
     @keyframes type-and-erase {
-      0% { width: 0; opacity: 1; }
-      35% { width: 100%; opacity: 1; }  /* Digita */
-      85% { width: 100%; opacity: 1; }  /* Pausa lendo */
-      95% { width: 0; opacity: 1; }     /* Apaga */
-      100% { width: 0; opacity: 0; }    /* Some para a próxima */
+      0% { width: 0; visibility: visible; }
+      10% { width: 100%; visibility: visible; } /* Digita */
+      90% { width: 100%; visibility: visible; } /* Pausa lendo */
+      99% { width: 0; visibility: visible; }    /* Apaga */
+      100% { width: 0; visibility: hidden; }
     }
 
     @keyframes blink {
@@ -37,16 +29,16 @@
       50% { border-color: #58a6ff }
     }
 
-    /* Gatilhos e tempos de atraso (delay) para cada frase */
+    /* Cada animação roda por 4 segundos, totalizando 16 segundos de ciclo */
     .line1 { animation: type-and-erase 4s steps(22) infinite, blink 0.75s step-end infinite; animation-delay: 0s; }
     .line2 { animation: type-and-erase 4s steps(25) infinite, blink 0.75s step-end infinite; animation-delay: 4s; }
     .line3 { animation: type-and-erase 4s steps(25) infinite, blink 0.75s step-end infinite; animation-delay: 8s; }
     .line4 { animation: type-and-erase 4s steps(10) infinite, blink 0.75s step-end infinite; animation-delay: 12s; }
   </style>
-  <g class="container">
-    <text class="text line1" y="35">Christian Martinkoski</text>
-    <text class="text line2" y="35">Desenvolvedor Backend</text>
-    <text class="text line3" y="35">Analista de Garantia</text>
-    <text class="text line4" y="35">17 anos</text>
-  </g>
+
+  <!-- Usando tags g separadas para que o GitHub aplique a visibilidade corretamente -->
+  <g><text class="text line1" x="0" y="35">Christian Martinkoski</text></g>
+  <g><text class="text line2" x="0" y="35">Desenvolvedor Backend</text></g>
+  <g><text class="text line3" x="0" y="35">Analista de Garantia</text></g>
+  <g><text class="text line4" x="0" y="35">17 anos</text></g>
 </svg>
