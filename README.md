@@ -1,4 +1,4 @@
-<img src="./titulo.svg?v=2" alt="Christian Martinkoski" height="50" />
+<img src="https://demolab.com" alt="Typing SVG" />
 
 Estudante de Desenvolvimento de Sistemas, focado em **Back-end**, APIs REST, bancos de dados e aplicações web.
 
