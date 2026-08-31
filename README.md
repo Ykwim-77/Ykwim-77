@@ -1,6 +1,6 @@
 # Christian Martinkoski
 
-![Animação](https://demolab.com)
+![Typing SVG](https://herokuapp.com)
 
 Estudante de Desenvolvimento de Sistemas, focado em **Back-end**, APIs REST, bancos de dados e aplicações web.
 
