@@ -21,8 +21,9 @@ Estudante de Desenvolvimento de Sistemas, focado em **Back-end**, APIs REST, ban
 ![](https://streak-stats.demolab.com/?user=Ykwim-77&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Ykwim-77&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-![GitHub Snake Animation](https://github.com)
-
+<p align="center">
+  <img src="https://github.com/Ykwim-77/Ykwim-77/blob/output/github-snake.svg" alt="GitHub Snake Animation">
+</p>
 
 
 
