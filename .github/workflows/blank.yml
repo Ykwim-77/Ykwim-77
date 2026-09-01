@@ -11,10 +11,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. Atualizado de @v4 para @v5 (Suporte nativo ao Node 24)
       - uses: actions/checkout@v5
       
-      # 2. Atualizado de @v3 para @v3.5.0 ou superior (Corrigido para Node 24)
       - uses: Platane/snk@v3.5.0
         id: snake-gif
         with:
@@ -23,7 +21,6 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # 3. Atualizado de @v4 para @v5 (Suporte nativo ao Node 24)
       - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
