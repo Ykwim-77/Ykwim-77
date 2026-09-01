@@ -22,9 +22,9 @@ Estudante de Desenvolvimento de Sistemas, focado em **Back-end**, APIs REST, ban
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Ykwim-77&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com">
-  <img alt="GitHub Snake Animation" src="https://github.com">
+  <source media="(prefers-color-scheme: dark)" srcset="https://githubusercontent.com">
+  <source media="(prefers-color-scheme: light)" srcset="https://githubusercontent.com">
+  <img alt="GitHub Snake Animation" src="https://githubusercontent.com">
 </picture>
 
 
